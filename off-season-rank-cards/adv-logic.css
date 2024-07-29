@@ -1,7 +1,7 @@
 :root:has(.tetra_badge[src*="tls1/"]) { --jixlwfaghl-rank-image: url("https://tetr.io/res/league-ranks/x.png"); }
 
-:root:has(.tetra_badge[src*="tls1/d."]) { --jixlwfaghl-rank-image: url("https://tetr.io/res/league-ranks/d.png"); }
-:root:has(.tetra_badge[src*="tls1/d+."]) { --jixlwfaghl-rank-image: url("https://tetr.io/res/league-ranks/d+.png"); }
+:root:has(.tetra_badge[src*="tls1/d."]) { --jixlwfaghl-rank-image: url("https://tetr.io/res/league-ranks/d.png"); --jixlwfaghl-rank-text: "[ ] . . ."; --jixlwfaghl-rank-offset: -151px !important; }
+:root:has(.tetra_badge[src*="tls1/d+."]) { --jixlwfaghl-rank-image: url("https://tetr.io/res/league-ranks/d+.png"); --jixlwfaghl-rank-text: "[ ] . . ."; --jixlwfaghl-rank-offset: -151px !important; }
 :root:has(.tetra_badge[src*="tls1/c-."]) { --jixlwfaghl-rank-image: url("https://tetr.io/res/league-ranks/c-.png"); }
 :root:has(.tetra_badge[src*="tls1/c."]) { --jixlwfaghl-rank-image: url("https://tetr.io/res/league-ranks/c.png"); }
 :root:has(.tetra_badge[src*="tls1/c+."]) { --jixlwfaghl-rank-image: url("https://tetr.io/res/league-ranks/c+.png"); }
