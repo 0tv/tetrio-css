@@ -1,0 +1,170 @@
+:root:has(.tetra_badge[src*="tls1/"]) { --jixlwfaghl-rank-image: url("https://tetr.io/res/league-ranks/x.png"); }
+
+:root:has(.tetra_badge[src*="tls1/d."]) { --jixlwfaghl-rank-image: url("https://tetr.io/res/league-ranks/d.png"); }
+:root:has(.tetra_badge[src*="tls1/d+."]) { --jixlwfaghl-rank-image: url("https://tetr.io/res/league-ranks/d+.png"); }
+:root:has(.tetra_badge[src*="tls1/c-."]) { --jixlwfaghl-rank-image: url("https://tetr.io/res/league-ranks/c-.png"); }
+:root:has(.tetra_badge[src*="tls1/c."]) { --jixlwfaghl-rank-image: url("https://tetr.io/res/league-ranks/c.png"); }
+:root:has(.tetra_badge[src*="tls1/c+."]) { --jixlwfaghl-rank-image: url("https://tetr.io/res/league-ranks/c+.png"); }
+:root:has(.tetra_badge[src*="tls1/b-."]) { --jixlwfaghl-rank-image: url("https://tetr.io/res/league-ranks/b-.png"); }
+:root:has(.tetra_badge[src*="tls1/b."]) { --jixlwfaghl-rank-image: url("https://tetr.io/res/league-ranks/b.png"); }
+:root:has(.tetra_badge[src*="tls1/b+."]) { --jixlwfaghl-rank-image: url("https://tetr.io/res/league-ranks/b+.png"); }
+:root:has(.tetra_badge[src*="tls1/a-."]) { --jixlwfaghl-rank-image: url("https://tetr.io/res/league-ranks/a-.png"); }
+:root:has(.tetra_badge[src*="tls1/a."]) { --jixlwfaghl-rank-image: url("https://tetr.io/res/league-ranks/a.png"); }
+:root:has(.tetra_badge[src*="tls1/a+."]) { --jixlwfaghl-rank-image: url("https://tetr.io/res/league-ranks/a+.png"); }
+:root:has(.tetra_badge[src*="tls1/s-."]) { --jixlwfaghl-rank-image: url("https://tetr.io/res/league-ranks/s-.png"); }
+:root:has(.tetra_badge[src*="tls1/s."]) { --jixlwfaghl-rank-image: url("https://tetr.io/res/league-ranks/s.png"); }
+:root:has(.tetra_badge[src*="tls1/s+."]) { --jixlwfaghl-rank-image: url("https://tetr.io/res/league-ranks/s+.png"); }
+:root:has(.tetra_badge[src*="tls1/ss."]) { --jixlwfaghl-rank-image: url("https://tetr.io/res/league-ranks/ss.png"); }
+:root:has(.tetra_badge[src*="tls1/u."]) { --jixlwfaghl-rank-image: url("https://tetr.io/res/league-ranks/u.png"); }
+
+/* Defaults to 5 digits, will go down to 4 if appropriate, 3 digits and below you're out of luck sorry */
+:root:has(.tetra_badge[src*="tls1"][title*=" ("]) { --jixlwfaghl-rank-offset: var(--jixlwfaghl-5-digits); }
+
+/* handles chars XX,xxx | X,xxx */
+:root:has(.tetra_badge[src*="tls1"][title*=" (1,"]) { --jixlwfaghl-first-section: 1000; --jixlwfaghl-rank-offset: var(--jixlwfaghl-4-digits); }
+:root:has(.tetra_badge[src*="tls1"][title*=" (2,"]) { --jixlwfaghl-first-section: 2000; --jixlwfaghl-rank-offset: var(--jixlwfaghl-4-digits); }
+:root:has(.tetra_badge[src*="tls1"][title*=" (3,"]) { --jixlwfaghl-first-section: 3000; --jixlwfaghl-rank-offset: var(--jixlwfaghl-4-digits); }
+:root:has(.tetra_badge[src*="tls1"][title*=" (4,"]) { --jixlwfaghl-first-section: 4000; --jixlwfaghl-rank-offset: var(--jixlwfaghl-4-digits); }
+:root:has(.tetra_badge[src*="tls1"][title*=" (5,"]) { --jixlwfaghl-first-section: 5000; --jixlwfaghl-rank-offset: var(--jixlwfaghl-4-digits); }
+:root:has(.tetra_badge[src*="tls1"][title*=" (6,"]) { --jixlwfaghl-first-section: 6000; --jixlwfaghl-rank-offset: var(--jixlwfaghl-4-digits); }
+:root:has(.tetra_badge[src*="tls1"][title*=" (7,"]) { --jixlwfaghl-first-section: 7000; --jixlwfaghl-rank-offset: var(--jixlwfaghl-4-digits); }
+:root:has(.tetra_badge[src*="tls1"][title*=" (8,"]) { --jixlwfaghl-first-section: 8000; --jixlwfaghl-rank-offset: var(--jixlwfaghl-4-digits); }
+:root:has(.tetra_badge[src*="tls1"][title*=" (9,"]) { --jixlwfaghl-first-section: 9000; --jixlwfaghl-rank-offset: var(--jixlwfaghl-4-digits); }
+:root:has(.tetra_badge[src*="tls1"][title*=" (10,"]) { --jixlwfaghl-first-section: 10000; }
+:root:has(.tetra_badge[src*="tls1"][title*=" (11,"]) { --jixlwfaghl-first-section: 11000; }
+:root:has(.tetra_badge[src*="tls1"][title*=" (12,"]) { --jixlwfaghl-first-section: 12000; }
+:root:has(.tetra_badge[src*="tls1"][title*=" (13,"]) { --jixlwfaghl-first-section: 13000; }
+:root:has(.tetra_badge[src*="tls1"][title*=" (14,"]) { --jixlwfaghl-first-section: 14000; }
+:root:has(.tetra_badge[src*="tls1"][title*=" (15,"]) { --jixlwfaghl-first-section: 15000; }
+:root:has(.tetra_badge[src*="tls1"][title*=" (16,"]) { --jixlwfaghl-first-section: 16000; }
+:root:has(.tetra_badge[src*="tls1"][title*=" (17,"]) { --jixlwfaghl-first-section: 17000; }
+:root:has(.tetra_badge[src*="tls1"][title*=" (18,"]) { --jixlwfaghl-first-section: 18000; }
+:root:has(.tetra_badge[src*="tls1"][title*=" (19,"]) { --jixlwfaghl-first-section: 19000; }
+:root:has(.tetra_badge[src*="tls1"][title*=" (20,"]) { --jixlwfaghl-first-section: 20000; }
+:root:has(.tetra_badge[src*="tls1"][title*=" (21,"]) { --jixlwfaghl-first-section: 21000; }
+:root:has(.tetra_badge[src*="tls1"][title*=" (22,"]) { --jixlwfaghl-first-section: 22000; }
+:root:has(.tetra_badge[src*="tls1"][title*=" (23,"]) { --jixlwfaghl-first-section: 23000; }
+:root:has(.tetra_badge[src*="tls1"][title*=" (24,"]) { --jixlwfaghl-first-section: 24000; }
+:root:has(.tetra_badge[src*="tls1"][title*=" (25,"]) { --jixlwfaghl-first-section: 25000; }
+
+
+/* handles chars xx,XXx | x,XXx */
+:root:has(.tetra_badge[src*="tls1"][title*=",00"]) { --jixlwfaghl-second-section: 0; }
+:root:has(.tetra_badge[src*="tls1"][title*=",01"]) { --jixlwfaghl-second-section: 10; }
+:root:has(.tetra_badge[src*="tls1"][title*=",02"]) { --jixlwfaghl-second-section: 20; }
+:root:has(.tetra_badge[src*="tls1"][title*=",03"]) { --jixlwfaghl-second-section: 30; }
+:root:has(.tetra_badge[src*="tls1"][title*=",04"]) { --jixlwfaghl-second-section: 40; }
+:root:has(.tetra_badge[src*="tls1"][title*=",05"]) { --jixlwfaghl-second-section: 50; }
+:root:has(.tetra_badge[src*="tls1"][title*=",06"]) { --jixlwfaghl-second-section: 60; }
+:root:has(.tetra_badge[src*="tls1"][title*=",07"]) { --jixlwfaghl-second-section: 70; }
+:root:has(.tetra_badge[src*="tls1"][title*=",08"]) { --jixlwfaghl-second-section: 80; }
+:root:has(.tetra_badge[src*="tls1"][title*=",09"]) { --jixlwfaghl-second-section: 90; }
+:root:has(.tetra_badge[src*="tls1"][title*=",10"]) { --jixlwfaghl-second-section: 100; }
+:root:has(.tetra_badge[src*="tls1"][title*=",11"]) { --jixlwfaghl-second-section: 110; }
+:root:has(.tetra_badge[src*="tls1"][title*=",12"]) { --jixlwfaghl-second-section: 120; }
+:root:has(.tetra_badge[src*="tls1"][title*=",13"]) { --jixlwfaghl-second-section: 130; }
+:root:has(.tetra_badge[src*="tls1"][title*=",14"]) { --jixlwfaghl-second-section: 140; }
+:root:has(.tetra_badge[src*="tls1"][title*=",15"]) { --jixlwfaghl-second-section: 150; }
+:root:has(.tetra_badge[src*="tls1"][title*=",16"]) { --jixlwfaghl-second-section: 160; }
+:root:has(.tetra_badge[src*="tls1"][title*=",17"]) { --jixlwfaghl-second-section: 170; }
+:root:has(.tetra_badge[src*="tls1"][title*=",18"]) { --jixlwfaghl-second-section: 180; }
+:root:has(.tetra_badge[src*="tls1"][title*=",19"]) { --jixlwfaghl-second-section: 190; }
+:root:has(.tetra_badge[src*="tls1"][title*=",20"]) { --jixlwfaghl-second-section: 200; }
+:root:has(.tetra_badge[src*="tls1"][title*=",21"]) { --jixlwfaghl-second-section: 210; }
+:root:has(.tetra_badge[src*="tls1"][title*=",22"]) { --jixlwfaghl-second-section: 220; }
+:root:has(.tetra_badge[src*="tls1"][title*=",23"]) { --jixlwfaghl-second-section: 230; }
+:root:has(.tetra_badge[src*="tls1"][title*=",24"]) { --jixlwfaghl-second-section: 240; }
+:root:has(.tetra_badge[src*="tls1"][title*=",25"]) { --jixlwfaghl-second-section: 250; }
+:root:has(.tetra_badge[src*="tls1"][title*=",26"]) { --jixlwfaghl-second-section: 260; }
+:root:has(.tetra_badge[src*="tls1"][title*=",27"]) { --jixlwfaghl-second-section: 270; }
+:root:has(.tetra_badge[src*="tls1"][title*=",28"]) { --jixlwfaghl-second-section: 280; }
+:root:has(.tetra_badge[src*="tls1"][title*=",29"]) { --jixlwfaghl-second-section: 290; }
+:root:has(.tetra_badge[src*="tls1"][title*=",30"]) { --jixlwfaghl-second-section: 300; }
+:root:has(.tetra_badge[src*="tls1"][title*=",31"]) { --jixlwfaghl-second-section: 310; }
+:root:has(.tetra_badge[src*="tls1"][title*=",32"]) { --jixlwfaghl-second-section: 320; }
+:root:has(.tetra_badge[src*="tls1"][title*=",33"]) { --jixlwfaghl-second-section: 330; }
+:root:has(.tetra_badge[src*="tls1"][title*=",34"]) { --jixlwfaghl-second-section: 340; }
+:root:has(.tetra_badge[src*="tls1"][title*=",35"]) { --jixlwfaghl-second-section: 350; }
+:root:has(.tetra_badge[src*="tls1"][title*=",36"]) { --jixlwfaghl-second-section: 360; }
+:root:has(.tetra_badge[src*="tls1"][title*=",37"]) { --jixlwfaghl-second-section: 370; }
+:root:has(.tetra_badge[src*="tls1"][title*=",38"]) { --jixlwfaghl-second-section: 380; }
+:root:has(.tetra_badge[src*="tls1"][title*=",39"]) { --jixlwfaghl-second-section: 390; }
+:root:has(.tetra_badge[src*="tls1"][title*=",40"]) { --jixlwfaghl-second-section: 400; }
+:root:has(.tetra_badge[src*="tls1"][title*=",41"]) { --jixlwfaghl-second-section: 410; }
+:root:has(.tetra_badge[src*="tls1"][title*=",42"]) { --jixlwfaghl-second-section: 420; }
+:root:has(.tetra_badge[src*="tls1"][title*=",43"]) { --jixlwfaghl-second-section: 430; }
+:root:has(.tetra_badge[src*="tls1"][title*=",44"]) { --jixlwfaghl-second-section: 440; }
+:root:has(.tetra_badge[src*="tls1"][title*=",45"]) { --jixlwfaghl-second-section: 450; }
+:root:has(.tetra_badge[src*="tls1"][title*=",46"]) { --jixlwfaghl-second-section: 460; }
+:root:has(.tetra_badge[src*="tls1"][title*=",47"]) { --jixlwfaghl-second-section: 470; }
+:root:has(.tetra_badge[src*="tls1"][title*=",48"]) { --jixlwfaghl-second-section: 480; }
+:root:has(.tetra_badge[src*="tls1"][title*=",49"]) { --jixlwfaghl-second-section: 490; }
+:root:has(.tetra_badge[src*="tls1"][title*=",50"]) { --jixlwfaghl-second-section: 500; }
+:root:has(.tetra_badge[src*="tls1"][title*=",51"]) { --jixlwfaghl-second-section: 510; }
+:root:has(.tetra_badge[src*="tls1"][title*=",52"]) { --jixlwfaghl-second-section: 520; }
+:root:has(.tetra_badge[src*="tls1"][title*=",53"]) { --jixlwfaghl-second-section: 530; }
+:root:has(.tetra_badge[src*="tls1"][title*=",54"]) { --jixlwfaghl-second-section: 540; }
+:root:has(.tetra_badge[src*="tls1"][title*=",55"]) { --jixlwfaghl-second-section: 550; }
+:root:has(.tetra_badge[src*="tls1"][title*=",56"]) { --jixlwfaghl-second-section: 560; }
+:root:has(.tetra_badge[src*="tls1"][title*=",57"]) { --jixlwfaghl-second-section: 570; }
+:root:has(.tetra_badge[src*="tls1"][title*=",58"]) { --jixlwfaghl-second-section: 580; }
+:root:has(.tetra_badge[src*="tls1"][title*=",59"]) { --jixlwfaghl-second-section: 590; }
+:root:has(.tetra_badge[src*="tls1"][title*=",60"]) { --jixlwfaghl-second-section: 600; }
+:root:has(.tetra_badge[src*="tls1"][title*=",61"]) { --jixlwfaghl-second-section: 610; }
+:root:has(.tetra_badge[src*="tls1"][title*=",62"]) { --jixlwfaghl-second-section: 620; }
+:root:has(.tetra_badge[src*="tls1"][title*=",63"]) { --jixlwfaghl-second-section: 630; }
+:root:has(.tetra_badge[src*="tls1"][title*=",64"]) { --jixlwfaghl-second-section: 640; }
+:root:has(.tetra_badge[src*="tls1"][title*=",65"]) { --jixlwfaghl-second-section: 650; }
+:root:has(.tetra_badge[src*="tls1"][title*=",66"]) { --jixlwfaghl-second-section: 660; }
+:root:has(.tetra_badge[src*="tls1"][title*=",67"]) { --jixlwfaghl-second-section: 670; }
+:root:has(.tetra_badge[src*="tls1"][title*=",68"]) { --jixlwfaghl-second-section: 680; }
+:root:has(.tetra_badge[src*="tls1"][title*=",69"]) { --jixlwfaghl-second-section: 690; }
+:root:has(.tetra_badge[src*="tls1"][title*=",70"]) { --jixlwfaghl-second-section: 700; }
+:root:has(.tetra_badge[src*="tls1"][title*=",71"]) { --jixlwfaghl-second-section: 710; }
+:root:has(.tetra_badge[src*="tls1"][title*=",72"]) { --jixlwfaghl-second-section: 720; }
+:root:has(.tetra_badge[src*="tls1"][title*=",73"]) { --jixlwfaghl-second-section: 730; }
+:root:has(.tetra_badge[src*="tls1"][title*=",74"]) { --jixlwfaghl-second-section: 740; }
+:root:has(.tetra_badge[src*="tls1"][title*=",75"]) { --jixlwfaghl-second-section: 750; }
+:root:has(.tetra_badge[src*="tls1"][title*=",76"]) { --jixlwfaghl-second-section: 760; }
+:root:has(.tetra_badge[src*="tls1"][title*=",77"]) { --jixlwfaghl-second-section: 770; }
+:root:has(.tetra_badge[src*="tls1"][title*=",78"]) { --jixlwfaghl-second-section: 780; }
+:root:has(.tetra_badge[src*="tls1"][title*=",79"]) { --jixlwfaghl-second-section: 790; }
+:root:has(.tetra_badge[src*="tls1"][title*=",80"]) { --jixlwfaghl-second-section: 800; }
+:root:has(.tetra_badge[src*="tls1"][title*=",81"]) { --jixlwfaghl-second-section: 810; }
+:root:has(.tetra_badge[src*="tls1"][title*=",82"]) { --jixlwfaghl-second-section: 820; }
+:root:has(.tetra_badge[src*="tls1"][title*=",83"]) { --jixlwfaghl-second-section: 830; }
+:root:has(.tetra_badge[src*="tls1"][title*=",84"]) { --jixlwfaghl-second-section: 840; }
+:root:has(.tetra_badge[src*="tls1"][title*=",85"]) { --jixlwfaghl-second-section: 850; }
+:root:has(.tetra_badge[src*="tls1"][title*=",86"]) { --jixlwfaghl-second-section: 860; }
+:root:has(.tetra_badge[src*="tls1"][title*=",87"]) { --jixlwfaghl-second-section: 870; }
+:root:has(.tetra_badge[src*="tls1"][title*=",88"]) { --jixlwfaghl-second-section: 880; }
+:root:has(.tetra_badge[src*="tls1"][title*=",89"]) { --jixlwfaghl-second-section: 890; }
+:root:has(.tetra_badge[src*="tls1"][title*=",90"]) { --jixlwfaghl-second-section: 900; }
+:root:has(.tetra_badge[src*="tls1"][title*=",91"]) { --jixlwfaghl-second-section: 910; }
+:root:has(.tetra_badge[src*="tls1"][title*=",92"]) { --jixlwfaghl-second-section: 920; }
+:root:has(.tetra_badge[src*="tls1"][title*=",93"]) { --jixlwfaghl-second-section: 930; }
+:root:has(.tetra_badge[src*="tls1"][title*=",94"]) { --jixlwfaghl-second-section: 940; }
+:root:has(.tetra_badge[src*="tls1"][title*=",95"]) { --jixlwfaghl-second-section: 950; }
+:root:has(.tetra_badge[src*="tls1"][title*=",96"]) { --jixlwfaghl-second-section: 960; }
+:root:has(.tetra_badge[src*="tls1"][title*=",97"]) { --jixlwfaghl-second-section: 970; }
+:root:has(.tetra_badge[src*="tls1"][title*=",98"]) { --jixlwfaghl-second-section: 980; }
+:root:has(.tetra_badge[src*="tls1"][title*=",99"]) { --jixlwfaghl-second-section: 990; }
+
+
+/* handles chars xx,xxX | x,xxX */
+:root:has(.tetra_badge[src*="tls1"][title*="1."]), :root:has(.tetra_badge[src*="tls1"][title*="1 TR"]:not([title*=".1 TR"])) { --jixlwfaghl-third-section: 1; }
+:root:has(.tetra_badge[src*="tls1"][title*="2."]), :root:has(.tetra_badge[src*="tls1"][title*="2 TR"]:not([title*=".2 TR"])) { --jixlwfaghl-third-section: 2; }
+:root:has(.tetra_badge[src*="tls1"][title*="3."]), :root:has(.tetra_badge[src*="tls1"][title*="3 TR"]:not([title*=".3 TR"])) { --jixlwfaghl-third-section: 3; }
+:root:has(.tetra_badge[src*="tls1"][title*="4."]), :root:has(.tetra_badge[src*="tls1"][title*="4 TR"]:not([title*=".4 TR"])) { --jixlwfaghl-third-section: 4; }
+:root:has(.tetra_badge[src*="tls1"][title*="5."]), :root:has(.tetra_badge[src*="tls1"][title*="5 TR"]:not([title*=".5 TR"])) { --jixlwfaghl-third-section: 5; }
+:root:has(.tetra_badge[src*="tls1"][title*="6."]), :root:has(.tetra_badge[src*="tls1"][title*="6 TR"]:not([title*=".6 TR"])) { --jixlwfaghl-third-section: 6; }
+:root:has(.tetra_badge[src*="tls1"][title*="7."]), :root:has(.tetra_badge[src*="tls1"][title*="7 TR"]:not([title*=".7 TR"])) { --jixlwfaghl-third-section: 7; }
+:root:has(.tetra_badge[src*="tls1"][title*="8."]), :root:has(.tetra_badge[src*="tls1"][title*="8 TR"]:not([title*=".8 TR"])) { --jixlwfaghl-third-section: 8; }
+:root:has(.tetra_badge[src*="tls1"][title*="9."]), :root:has(.tetra_badge[src*="tls1"][title*="9 TR"]:not([title*=".9 TR"])) { --jixlwfaghl-third-section: 9; }
+
+/* handles rounding */
+:root:has(.tetra_badge[src*="tls1"][title*=".5"]), :root:has(.tetra_badge[src*="tls1"][title*="9 TR"]) { --jixlwfaghl-round-up: 1; }
+:root:has(.tetra_badge[src*="tls1"][title*=".6"]), :root:has(.tetra_badge[src*="tls1"][title*="9 TR"]) { --jixlwfaghl-round-up: 1; }
+:root:has(.tetra_badge[src*="tls1"][title*=".7"]), :root:has(.tetra_badge[src*="tls1"][title*="9 TR"]) { --jixlwfaghl-round-up: 1; }
+:root:has(.tetra_badge[src*="tls1"][title*=".8"]), :root:has(.tetra_badge[src*="tls1"][title*="9 TR"]) { --jixlwfaghl-round-up: 1; }
+:root:has(.tetra_badge[src*="tls1"][title*=".9"]), :root:has(.tetra_badge[src*="tls1"][title*="9 TR"]) { --jixlwfaghl-round-up: 1; }
