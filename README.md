@@ -8,7 +8,14 @@ This is a repository for me to store my CSS files for use with TETR.IO
 ## Available CSS Files
 
 ### Off-season ranks
-A link will be provided to the file soon, for now check the repository for the file.
+#### Note that this DOES NOT display a hidden Tetra League rating, it simply uses the TR the user had when Season 1 ended. There is no guarentee that your opponent is still at the skill level that the badge indicates.
+[main.css](https://github.com/0tv/tetrio-css/blob/main/off-season-rank-cards/main.css) (renders the record on the profile card) | [adv-logic.css](https://github.com/0tv/tetrio-css/blob/main/off-season-rank-cards/adv-logic.css) (reads TR from user's season 1 rank badge)
+
+You can load this without pasting all the code into your CSS editor using the following (make sure it's at the top of your code and not below anything else):
+```css
+@import url("https://0tv.github.io/tetrio-css/off-season-rank-cards/main.css");
+@import url("https://0tv.github.io/tetrio-css/off-season-rank-cards/adv-logic.css");
+```
 
 ## How to Apply Custom CSS
 
