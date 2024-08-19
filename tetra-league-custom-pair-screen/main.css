@@ -1,0 +1,112 @@
+/* 1068720528208187493 @corsekittykaryl */
+/* patched for season 2 x+ rank */
+#pair_el_p1:has(img[src*="x+.png"]),
+#pair_el_p2:has(img[src*="x+.png"]) {
+	--rankColor: #A763EA;
+}
+
+#pair_el_p1:has(img[src*="x.png"]),
+#pair_el_p2:has(img[src*="x.png"]) {
+	--rankColor: #FF45FF;
+}
+
+#pair_el_p1:has(img[src*="u.png"]),
+#pair_el_p2:has(img[src*="u.png"]) {
+	--rankColor: #FF3813;
+}
+
+#pair_el_p1:has(img[src*="ss.png"]),
+#pair_el_p2:has(img[src*="ss.png"]) {
+	--rankColor: #DB8B1F;
+}
+
+#pair_el_p1:has(img[src*="s+.png"]),
+#pair_el_p2:has(img[src*="s+.png"]) {
+	--rankColor: #D8AF0E;
+}
+
+#pair_el_p1:has(img[src*="s.png"]),
+#pair_el_p2:has(img[src*="s.png"]) {
+	--rankColor: #E0A71B;
+}
+
+#pair_el_p1:has(img[src*="s-.png"]),
+#pair_el_p2:has(img[src*="s-.png"]) {
+	--rankColor: #B2972B;
+}
+
+#pair_el_p1:has(img[src*="a+.png"]),
+#pair_el_p2:has(img[src*="a+.png"]) {
+	--rankColor: #1FA834;
+}
+
+#pair_el_p1:has(img[src*="a.png"]),
+#pair_el_p2:has(img[src*="a.png"]) {
+	--rankColor: #46AD51;
+}
+
+#pair_el_p1:has(img[src*="a-.png"]),
+#pair_el_p2:has(img[src*="a-.png"]) {
+	--rankColor: #3BB687;
+}
+
+#pair_el_p1:has(img[src*="b+.png"]),
+#pair_el_p2:has(img[src*="b+.png"]) {
+	--rankColor: #4F99C0;
+}
+
+#pair_el_p1:has(img[src*="b.png"]),
+#pair_el_p2:has(img[src*="b.png"]) {
+	--rankColor: #4F64C9;
+}
+
+#pair_el_p1:has(img[src*="b-.png"]),
+#pair_el_p2:has(img[src*="b-.png"]) {
+	--rankColor: #5650C7;
+}
+
+#pair_el_p1:has(img[src*="c+.png"]),
+#pair_el_p2:has(img[src*="c+.png"]) {
+	--rankColor: #552883;
+}
+
+#pair_el_p1:has(img[src*="c.png"]),
+#pair_el_p2:has(img[src*="c.png"]) {
+	--rankColor: #733E8F;
+}
+
+#pair_el_p1:has(img[src*="c-.png"]),
+#pair_el_p2:has(img[src*="c-.png"]) {
+	--rankColor: #79558C;
+}
+
+#pair_el_p1:has(img[src*="d+.png"]),
+#pair_el_p2:has(img[src*="d+.png"]) {
+	--rankColor: #8E6091;
+}
+
+#pair_el_p1:has(img[src*="d.png"]),
+#pair_el_p2:has(img[src*="d.png"]) {
+	--rankColor: #907591;
+}
+
+#pair_el_p1,
+#pair_el_p2 {
+	background-blend-mode: hard-light;
+	background-size: 100% 100%;
+	border: 2px solid #fff;
+	background-color: var(--rankColor);
+}
+
+#pair_el_p1 {
+	background-image: url(https://files.catbox.moe/d929d7.png);
+}
+
+#pair_el_p2 {
+	background-image: url(https://files.catbox.moe/48dvln.png);
+	background-blend-mode: multiply;
+}
+
+#pair_glow {
+	display: none;
+}
