@@ -19,6 +19,17 @@ You can load this without pasting all the code into your CSS editor using the fo
 @import url("https://0tv.github.io/tetrio-css/off-season-rank-cards/adv-logic.css");
 ```
 
+### Custom pair screen
+![top player jumpscare](https://0tv.github.io/tetrio-css/tetra-league-custom-pair-screen/numero%20uno%20scary%20imagey.png)
+#### Sometimes the images load slowly resulting in a glitched looking screen, this should fix itself quickly though.
+[main.css](https://github.com/0tv/tetrio-css/blob/main/tetra-league-custom-pair-screen/main.css)
+
+
+You can load this without pasting all the code into your CSS editor using the following (make sure it's at the top of your code and not below anything else):
+```css
+@import url("https://0tv.github.io/tetrio-css/tetra-league-custom-pair-screen/main.css");
+```
+
 ## How to Apply Custom CSS
 
 ### Using TETR.IO Plus
